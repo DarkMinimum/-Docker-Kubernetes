@@ -1,7 +1,5 @@
 FROM python
 
-LABEL authors="DarkMinimum"
-
 WORKDIR /app
 
 COPY . /app
