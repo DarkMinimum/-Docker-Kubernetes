@@ -29,6 +29,7 @@ clean up all created images.
 docker ps -all
 docker rm app-node-js
 docker rm app-python
+//docker prune
 
 docker rmi 447d1703e18d
 docker rmi e299281a24c8
